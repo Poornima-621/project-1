@@ -1,11 +1,2 @@
-const express = require('express');
-const app = express();
-const port = 3000;
+console.log("Hello from Poornima's Node.js pipeline!");
 
-app.get('/', (req, res) => {
-  res.send('Hello from Node.js!');
-});
-
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
-});
